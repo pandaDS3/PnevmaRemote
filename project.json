@@ -1,0 +1,17 @@
+{
+  "name": "PnevmaRemote",
+  "about": "Управление пневмоподвеской автомобиля с помощью ESP32 и 8 канального релейного модуля",
+  "version": "1.0",
+  "notes": "",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
